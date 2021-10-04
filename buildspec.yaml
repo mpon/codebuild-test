@@ -5,3 +5,4 @@ phases:
     commands:
       - ls
       - whoami
+      - ls .git
