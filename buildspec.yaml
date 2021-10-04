@@ -6,6 +6,7 @@ phases:
       - echo direct commit main
       - echo direct commit main 2
       - echo direct commit main 3
+      - echo direct commit main 4
       - ls
       - whoami
       - cat .git/HEAD
