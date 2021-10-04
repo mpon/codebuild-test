@@ -3,6 +3,7 @@ version: 0.2
 phases:
   build:
     commands:
+      - echo test
       - git branch
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
