@@ -6,3 +6,6 @@ phases:
       - git branch
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
+      - git switch main
+      - git rev-parse --abbrev-ref HEAD
+      - git rev-parse HEAD
