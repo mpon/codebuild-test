@@ -9,4 +9,4 @@ phases:
       - ls
       - whoami
       - ls .git
-      - cat .git/FETCH_HEAD
+      - ls .git/refs/**
