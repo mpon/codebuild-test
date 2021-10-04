@@ -8,5 +8,5 @@ phases:
       - echo direct commit main 3
       - ls
       - whoami
-      - ls .git
+      - cat .git/HEAD
       - ls .git/refs/**
