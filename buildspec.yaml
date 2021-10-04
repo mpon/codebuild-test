@@ -5,6 +5,7 @@ phases:
     commands:
       - echo direct commit main
       - echo direct commit main 2
+      - echo direct commit main 3
       - ls
       - whoami
       - ls .git
