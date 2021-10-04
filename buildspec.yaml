@@ -4,6 +4,7 @@ phases:
   build:
     commands:
       - echo direct commit main
+      - echo direct commit main 2
       - ls
       - whoami
       - ls .git
