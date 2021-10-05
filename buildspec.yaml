@@ -11,3 +11,4 @@ phases:
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
       - echo commit direct main
+      - ${COMMAND}
