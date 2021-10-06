@@ -3,12 +3,9 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo commit branch first
       - git branch
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
       - git switch main
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
-      - echo commit direct main
-      - ${COMMAND}
