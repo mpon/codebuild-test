@@ -6,7 +6,9 @@ phases:
       - git branch
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
+      - git switch mpon-patch-1
+      - git rev-parse --abbrev-ref HEAD
+      - git rev-parse HEAD
       - git switch main
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
-      - echo mpon-patch-1
