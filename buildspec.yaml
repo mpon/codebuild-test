@@ -9,3 +9,4 @@ phases:
       - git switch main
       - git rev-parse --abbrev-ref HEAD
       - git rev-parse HEAD
+      - echo mpon-patch-1
